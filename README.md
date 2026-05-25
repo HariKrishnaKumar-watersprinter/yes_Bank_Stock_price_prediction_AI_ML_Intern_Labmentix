@@ -124,13 +124,13 @@ We used **SHAP (SHapley Additive exPlanations)** on the best model (XGBoost) to 
 ### Performance Comparison
 | Model | RMSE | R² Score | Remarks |
 |-------|------|----------|---------|
-| **XGBoost (Tuned)** | **Lowest** | **~0.95** | Best overall performance on tabular data |
-| LSTM | Moderate | ~0.88 | Good, but requires more data points |
-| Prophet | Higher | ~0.80 | Struggled with the abrupt crash trend |
+| **XGBoost (Tuned)** | **Lowest** | **~0.9796** | Best overall performance on tabular data |
+| LSTM | Moderate | ~0.9776 | Good, but requires more data points |
+| Prophet | Higher | ~0.9684 | Struggled with the abrupt crash trend |
 
 
 ### Final Conclusion
-- **XGBoost** was selected as the final model due to its superior accuracy and speed.
+- **LSTM** was selected as the final model due to its superior accuracy and speed.
 - The project successfully integrated a **production-ready pipeline** that prevents data leakage.
 - The model explains historical dependencies well, though external factors (news/sentiment) would be needed to predict "Black Swan" events like the 2020 crash.
 
@@ -174,6 +174,10 @@ We used **SHAP (SHapley Additive exPlanations)** on the best model (XGBoost) to 
   - `shap` (Model Explainability)
 
 ---
+💡 Future Work:
+- Sentiment Analysis: Integrate financial news sentiment to predict sudden crashes.
+- Real-time Data: Connect to a live API (e.g., Yahoo Finance) for real-time forecasting.
+- Deployment: Deploy the model using Streamlit or Flask for interactive use.
 ---
 
 # 👨‍💻 Author
