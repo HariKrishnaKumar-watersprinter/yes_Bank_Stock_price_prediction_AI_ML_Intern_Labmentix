@@ -60,7 +60,7 @@ The project follows a modular pipeline approach to ensure reproducibility and pr
 2. **Exploratory Data Analysis (EDA)**
 3. **Hypothesis Testing**
 4. **Feature Engineering & Preprocessing Pipeline**
-5. **Model Training (XGBoost, Prophet, DeepAR, LSTM)**
+5. **Model Training (XGBoost, Prophet, LSTM)**
 6. **Hyperparameter Tuning**
 7. **Model Evaluation & Explainability (SHAP)**
 
@@ -108,11 +108,7 @@ Four distinct modeling approaches were implemented:
 - Implemented as a Multivariate model by adding lagged features as regressors.
 - Tuned `changepoint_prior_scale` and `seasonality_prior_scale` for better trend fitting.
 
-#### 3. DeepAR (GluonTS)
-- A probabilistic forecasting model suitable for time series.
-- Trained for 20-30 epochs to predict the test window.
-
-#### 4. LSTM (Deep Learning)
+#### 3. LSTM (Deep Learning)
 - Built a Sequential model with LSTM layers, Dropout for regularization, and Dense output layers.
 - Input shape reshaped to `[Samples, Time Steps, Features]` using PCA components.
 
@@ -131,7 +127,7 @@ We used **SHAP (SHapley Additive exPlanations)** on the best model (XGBoost) to 
 | **XGBoost (Tuned)** | **Lowest** | **~0.95** | Best overall performance on tabular data |
 | LSTM | Moderate | ~0.88 | Good, but requires more data points |
 | Prophet | Higher | ~0.80 | Struggled with the abrupt crash trend |
-| DeepAR | Moderate | ~0.85 | Captured distribution well |
+
 
 ### Final Conclusion
 - **XGBoost** was selected as the final model due to its superior accuracy and speed.
@@ -175,12 +171,21 @@ We used **SHAP (SHapley Additive exPlanations)** on the best model (XGBoost) to 
   - `xgboost` (Gradient Boosting)
   - `tensorflow/keras` (LSTM)
   - `fbprophet` (Time Series Forecasting)
-  - `gluonts` (DeepAR)
   - `shap` (Model Explainability)
 
 ---
+---
 
+# 👨‍💻 Author
+
+## Hari Krishna Kumar
+
+📌 Data Science & AI/ML Enthusiast  
+📌 Passionate about FinTech Analytics & Machine Learning  
+📌 Interested in Data-Driven Product Development
+
+---
 <div align="center">
-  Made with ❤️ by [Your Name]
+  Made with ❤️ by [Hari Krishna Kumar]
 </div>
 ```x
