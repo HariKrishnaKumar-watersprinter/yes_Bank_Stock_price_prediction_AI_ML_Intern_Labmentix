@@ -1,4 +1,4 @@
-
+<h1 align="center">📈 Yes Bank Stock Price Prediction</h1>
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python" alt="Python Badge">
   <img src="https://img.shields.io/badge/Framework-TensorFlow%20%7C%20Scikit--Learn-orange?style=for-the-badge" alt="Framework Badge">
@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge" alt="License Badge">
 </div>
 
-<h1 align="center">📈 Yes Bank Stock Price Prediction</h1>
+
 <h3 align="center">A Machine Learning & Deep Learning Approach for Time Series Forecasting</h3>
 
 <p align="center">
