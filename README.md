@@ -1,6 +1,4 @@
-Here is a detailed, attractive, and professional `README.md` file designed for your project repository.
 
-```markdown
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python" alt="Python Badge">
   <img src="https://img.shields.io/badge/Framework-TensorFlow%20%7C%20Scikit--Learn-orange?style=for-the-badge" alt="Framework Badge">
